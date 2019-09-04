@@ -1,0 +1,573 @@
+body {
+    border-top: 5px solid #13bfcb;
+}
+
+.topmini {
+    background: #f5f5f5;
+    color: #acacac;
+}
+
+.topminibar ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 0;
+}
+
+.topminibar li {
+    padding: 0 15px;
+    display:inline;
+}
+
+.topminibar li a {
+    text-decoration: none;
+    color: #acacac;
+}
+
+.topminibar li a:hover{
+    color: #13bfcb;
+}
+
+.topminiwelcome {
+    text-align: right;
+    padding: 0 0;
+}
+
+.topminiwelcome a {
+    text-decoration: none;
+    color:#13bfcb;
+}
+
+.nav {
+    height: 150px;
+    margin-left: 20px;
+}
+
+.logo h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 6px 6px;
+    background: #13bfcb;
+    color: white;
+}
+
+.period {
+    color: #13bfcb;
+}
+
+.settingsbar {
+    margin-top: 20px;
+    text-align: right;
+    padding: 0 0;
+}
+#currency {
+    background: #f5f5f5;
+    padding: 7px 3px;
+    color: gray;
+    text-decoration: none;
+}
+
+#language {
+    background: #f5f5f5;
+    padding: 7px 3px;
+    color: gray;
+}
+
+.settingsbar a{
+    background: #13bfcb;
+    color: white;
+    padding: 10px 15px;
+}
+
+.mainnav ul {
+    list-style: none;
+    margin-top: 25px;
+    text-align: left;
+    padding: 0 0;
+}
+
+.mainnav li {
+    padding: 0 12px;
+    display: inline;
+}
+
+.mainnav li a {
+    text-decoration: none;
+    color: #585954;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.mainnav li a:hover {
+    color: #13bfcb;
+}
+
+.searchbar {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.searchbar1 {
+    border: 1px solid #acacac;
+    padding: 4px 8px; 
+}
+
+.serachbar i {
+    color: #acacac;
+}
+
+.searchbar button {
+    background: #f5f5f5;
+    border: none;
+    padding: 6px 9px;
+}
+
+.heroinfo {
+    margin-top: 168px;
+    margin-left: 73px;
+}
+
+.bluenew {
+    padding: 7px 14px;
+    color: white;
+    background: #13bfcb;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+.men {
+    padding: 3px 17px;
+    color: white;
+    background: rgb(74, 84, 94);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 33px;
+}
+
+.heroinfo p {
+    color: black;
+    font-size: 16px;
+}
+
+.heroinfo a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: rgb(74, 84, 94);
+    padding: 9px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slider {
+    display: inline-block;
+    height: 5px;
+    width: 90px;
+    background: #13bfcb;
+    
+}
+
+.sliderrow {
+    text-align: center;
+    margin-top: -33px;
+}
+
+.linkads {
+    height: 350px;
+}
+
+.truckad img {
+    margin-top: 68px;
+}
+.truckad h2 {
+    margin-top: -234px;
+    margin-left: 12px;
+    z-index: 1;
+}
+
+.free {
+    color: #13bfcb;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.shipping {
+    color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.orders {
+    color: rgb(170, 168, 168);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.amount {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pinkad {
+    height: 230px;
+    width: 350px;
+    background: #ffa2d9;
+    margin-top: 69px;
+}
+
+.whitesale {
+    color: white;
+    font-size: 110px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.newarrivals img {
+    margin-top: 68px;
+}
+
+.newarrivals h2 {
+    margin-top: -151px;
+    margin-left: 30px;
+    color: #13bfcb;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ontheside {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: white;
+    font-size: 20px;    
+    margin-left: 304px;
+    margin-top: -77px;
+}
+
+.latest h2 {
+    color: #444645;
+    font-size: 45px;
+    border-left: 5px solid #13bfcb;
+    text-transform: capitalize;
+    padding: 0 8px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.buydiscounts {
+    color: rgb(155, 154, 154);
+    font-size: 15px;
+}
+
+.latestbuttons {
+    margin-top: 28px;
+}
+
+.latestbuttons button {
+    padding: 7px 19px;
+    background: #fafafa;
+    border: 1px solid #e7e7e7;
+}
+
+.latestbuttons button a {
+color: #b1b1b1;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.latestbuttons button:hover {
+    background: #13bfcb;
+}
+
+.graylining {
+    height: 50px;
+    width: 1000px;
+}
+
+.primarycontent {
+    height: 400px;
+}
+
+/*.salepercentage {
+    background: #ff0198;
+    color: white;
+    height: 10px;
+    width: 12px;
+    z-index: 1;
+}*/
+
+.description {
+    color: #a0a0a0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.primarycontent button {
+    background: #444c4e;
+    color: #c0c3c4;
+    margin-left: 80px;
+    border: 1px solid #444c4e;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+
+
+
+.graylining {
+    margin-right: 100px;
+}
+
+
+
+.secondarycontent h2 {
+    color: #444645;
+    font-size: 45px;
+    border-left: 5px solid #13bfcb;
+    text-transform: capitalize;
+    padding: 0 8px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.bluelink {
+    color: #13bfcb;
+    text-decoration: none;
+}
+
+.bluelink:hover {
+    color: #13bfcb;
+    text-decoration: none;
+}
+
+.bestsellers {
+    padding: 0 0;
+}
+
+.bestsellers h2 {
+    color: #444645;
+    font-size: 45px;
+    border-left: 5px solid #13bfcb;
+    text-transform: capitalize;
+    padding: 0 8px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.bestsellerbuttons {
+    margin-top: 28px;
+}
+
+.bestsellerbuttons button {
+    padding: 7px 19px;
+    background: #fafafa;
+    border: 1px solid #e7e7e7;
+}
+
+.bestsellerbuttons button a {
+color: #b1b1b1;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.bestsellerbuttons button:hover {
+    background: #13bfcb;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+
+.tertiarycontent {
+    height: 350px;
+}
+
+.tertiarycontent button {
+    background: #444c4e;
+    color: #c0c3c4;
+    margin-left: 80px;
+    border: 1px solid #444c4e;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.manufactures {
+    padding: 0 0;
+}
+
+.manufactures h2 {
+    color: #444645;
+    font-size: 45px;
+    border-left: 5px solid #13bfcb;
+    text-transform: capitalize;
+    padding: 0 8px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.manufacturesbuttons {
+    margin-top: 28px;
+}
+
+.manufacturesbuttons button {
+    padding: 7px 19px;
+    background: #fafafa;
+    border: 1px solid #e7e7e7;
+}
+
+.manufacturesbuttons button a {
+color: #b1b1b1;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.manufacturesbuttons button:hover {
+    background: #13bfcb;
+    font-family: 'Arial Narrow', Arial, sans-serif
+}
+
+.quaternarycontent {
+    height: 170px;
+    margin-top: 30px;
+}
+
+.bottombar {
+    height: 100px;
+    background: #d6d6d6;
+}
+
+.signup h2 {
+    color: #444645;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottomsearchbar {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.searchbar2 {
+    border: 6px solid #fbe11d;
+    padding: 4px 50px; 
+    background: #d6d6d6;
+}
+
+
+footer {
+    background: #434b4d;
+    padding-top: 50px;
+}
+
+.smalllists h3 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0;
+}
+
+
+.smalllists ul {
+    padding: 0 10px;
+    list-style: none; 
+    line-height: 20px;
+}
+  
+.smalllists ul li:before {
+    content: "\25aa"; 
+    color: #13bfcb; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+    font-size: 25px;
+}
+
+.smalllists li {
+    padding: 0 15px;
+}
+
+.smalllists ul a {
+    color: #9fa1a3;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 47px;
+}
+
+.smalllists ul a:hover {
+    color: #13bfcb;
+}
+
+.smalllists p {
+    color: #9fa1a3;
+}
+
+.twitter {
+    color: #13bfcb;
+}
+
+.twitter:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.smalllists small {
+    color: #686a6b;
+}
+
+.likebutton button {
+    background: #13bfcb;
+    color: white;
+    border: 1px solid #13bfcb;
+    border-radius: 3px;
+    padding: 3px 12px;
+}
+
+.peoplelike {
+    color: #9fa1a3;
+}
+
+.bluepromo {
+    color: #2b7982;
+    text-transform: capitalize;
+}
+
+
+.name {
+    color: #9fa1a3;
+    text-transform: capitalize;
+}
+
+.socialmediarow {
+    height: 80px;
+}
+
+.socialmedia {
+    padding-top: 40px;
+    color: #9fa1a3;
+}
+
+.socialmedia ul {
+    list-style: none;
+}
+
+.socialmedia li {
+    display: inline;
+    font-size: 30px;
+}
+    
